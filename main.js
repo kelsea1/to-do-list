@@ -36,3 +36,8 @@ function showTask() {
     listContainer.innerHTML = localStorage.getItem("data");
 }
 showTask();
+
+const timerLinkButton = document.getElementById('timer-link');
+timerLinkButton.addEventListener('click',()=>{
+    window.location.href = 'file:///D:/projects/timer/timer.html';
+});

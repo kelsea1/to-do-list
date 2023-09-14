@@ -104,3 +104,14 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+#timer-link{
+    position: absolute;
+    bottom: 5%;
+    background-color: transparent;
+    background-color: 0;
+    color: #000;
+    border: 3px solid;
+    border-color: rgb(235, 104, 126); 
+    padding: 10px;
+    border-radius: 0;
+}
